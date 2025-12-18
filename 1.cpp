@@ -1,3 +1,6 @@
+// Трапеция
+
+
 #include <iostream>
 #include <cmath>
 using namespace std;
@@ -23,7 +26,7 @@ double trapechiy(double a, double b, int n) {
     double Fb = Integ(b);       
     
     //Итоговая формула трапеций
-    S = (h / 2) * (Fa + Fb + 2 * S); // S := (h/2)*(Fa + Fb + 2*S)
+    S = (h / 2) * (Fa + Fb + 2 * S); 
     return S;               
 }
 
@@ -50,4 +53,5 @@ int main() {
     //Вывод результата
     cout << "Приближенное значение интеграла: " << result << endl;
     return 0;
+
 }
