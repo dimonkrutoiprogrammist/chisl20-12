@@ -1,3 +1,5 @@
+// Метод симпсона
+
 #include <iostream>
 #include <cmath>
 
@@ -72,4 +74,5 @@ int main() {
     double result = SimpsonMetod(a, b, eps);
     
     return 0;
+
 }
